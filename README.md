@@ -89,12 +89,37 @@ $$\text{\% Arándanos Exportables} = \left( \frac{\text{Kg. Totales Exportables 
 ---
 
 ### 2. Dashboard Principal (Vistas por Campaña)
-El panel principal interactivo permite realizar un seguimiento macro de la operación. Para reflejar la evolución histórica y el comportamiento del negocio, la sección analítica se divide en 4 vistas dinámicas según la campaña seleccionada:
+El panel principal interactivo permite realizar un seguimiento macro de la operación. Para reflejar la evolución histórica y el comportamiento del negocio, se documentan las vistas dinámicas según la campaña seleccionada:
 
-*   **Campaña 2022-2023 (`pestaña_dashboard_2023.png`):** Línea de base histórica con los volúmenes iniciales procesados por la empresa.
-*   **Campaña 2023-2024 (`pestaña_dashboard_2024.png`):** Comportamiento intermedio de la producción y seguimiento de indicadores de calidad.
-*   **Campaña 2024-2025 (`pestaña_dashboard_2025.png`):** Tendencia previa y consolidación de datos de exportabilidad por zona.
-*   **Campaña 2025-2026 (`pestaña_dashboard_2026.png`):** Diagnóstico del estado actual del negocio (cierre al 01/05/2026 con un 75% de exportabilidad).
+#### 📅 Campaña 2022-2023
+Línea de base histórica con los volúmenes iniciales procesados por la empresa.
+
+<p align="center">
+  <img src="img/pestaña_dashboard_2023.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+</p>
+
+---
+
+#### 📅 Campaña 2023-2024
+Comportamiento intermedio de la producción y seguimiento de indicadores de calidad.
+
+<p align="center">
+  <img src="img/pestaña_dashboard_2024.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+</p>
+
+---
+
+#### 📅 Campaña 2024-2025
+Tendencia previa y consolidación de datos de exportabilidad por zona.
+
+<p align="center">
+  <img src="img/pestaña_dashboard_2025.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+</p>
+
+---
+
+#### 📅 Campaña 2025-2026
+Diagnóstico del estado actual del negocio (cierre con un 75% de exportabilidad).
 
 <p align="center">
   <img src="img/pestaña_dashboard_2026.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
