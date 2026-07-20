@@ -36,9 +36,7 @@ El informe está estructurado en pestañas estratégicas para guiar al usuario a
 *   **Caso de Negocio:** Contexto, problemática y justificación financiera del proyecto.
 *   **Indicadores:** Definición de las métricas clave y KPIs de rendimiento.
 *   **Dashboard:** Panel principal interactivo con la situación macro de la operación.
-*   **Reporte Detallado:** 
-    *   *Detalle Región:* Análisis geoespacial y rendimiento por zona productiva.
-    *   *Detalle Variedad:* Comportamiento y calidad según el tipo de arándano.
+*   **Reporte Detallado:** Evolución histórica del KPI de exportabilidad y diagnóstico con metodología WHAT / SO WHAT / NOW WHAT.
 *   **Sección de Asesoría (Preguntas 1 a 10):** Respuestas analíticas a los 10 requerimientos críticos planteados en la asesoría del negocio.
 
 ---
@@ -94,7 +92,7 @@ El panel principal interactivo permite realizar un seguimiento macro de la opera
 Línea de base histórica con los volúmenes iniciales procesados por la empresa.
 
 <p align="center">
-  <img src="img/pestaña_dashboard_2023.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+  <img src="img/pestaña_dashboard_2023.png" alt="Dashboard Principal BerryData - Campaña 2022-2023" width="100%"/>
 </p>
 
 ---
@@ -103,7 +101,7 @@ Línea de base histórica con los volúmenes iniciales procesados por la empresa
 Comportamiento intermedio de la producción y seguimiento de indicadores de calidad.
 
 <p align="center">
-  <img src="img/pestaña_dashboard_2024.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+  <img src="img/pestaña_dashboard_2024.png" alt="Dashboard Principal BerryData - Campaña 2023-2024" width="100%"/>
 </p>
 
 ---
@@ -112,7 +110,7 @@ Comportamiento intermedio de la producción y seguimiento de indicadores de cali
 Tendencia previa y consolidación de datos de exportabilidad por zona.
 
 <p align="center">
-  <img src="img/pestaña_dashboard_2025.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+  <img src="img/pestaña_dashboard_2025.png" alt="Dashboard Principal BerryData - Campaña 2024-2025" width="100%"/>
 </p>
 
 ---
@@ -121,7 +119,7 @@ Tendencia previa y consolidación de datos de exportabilidad por zona.
 Diagnóstico del estado actual del negocio (cierre con un 75% de exportabilidad).
 
 <p align="center">
-  <img src="img/pestaña_dashboard_2026.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+  <img src="img/pestaña_dashboard_2026.png" alt="Dashboard Principal BerryData - Campaña 2025-2026" width="100%"/>
 </p>
 
 ---
@@ -245,7 +243,7 @@ Esta propuesta no solo facilita el monitoreo continuo del desempeño por campañ
 *   **Priorización con evidencia:** Focalización de acciones de mejora en postcosecha, manejo y clasificación de acuerdo con datos objetivos.
 *   **Eficiencia y Rentabilidad:** Maximización del volumen de fruta exportable, generando un impacto económico positivo y un mejor aprovechamiento de la producción.
 *   **Cultura Data-Driven:** Promoción de una cultura organizacional orientada al análisis de datos y la mejora continua, fortaleciendo la competitividad de la empresa en el mercado agroexportador.
-*   
+
 ---
 
 ## 🛠️ Herramientas Utilizadas
