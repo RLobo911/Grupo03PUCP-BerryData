@@ -1,4 +1,4 @@
-# Data Analysis Foundations and Storytelling with Data — Proyecto Final
+# Data Visualization with Power BI + Cloud — Proyecto Final
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" width="50"/>
