@@ -1,7 +1,7 @@
 # Data Visualization with Power BI + Cloud — Proyecto Final
 
 <p align="center">
-  <img src="img/logo_BerryData.png" alt="Logo Berry-Data" width="100%"/>
+  <img src="img/logo_BerryData.png" alt="Logo Berry-Data" width="50%"/>
 </p>
 
 ## 📝 Descripción del Proyecto
