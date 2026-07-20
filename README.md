@@ -14,7 +14,7 @@ El proyecto abarca desde la concepción del caso de negocio hasta la resolución
 ## 🎯 Objetivo del Proyecto
 Analizar y optimizar el porcentaje de kilogramos exportables por campaña en una empresa agroexportadora de arándanos. A través del análisis de datos, la selección de indicadores clave (KPIs) y el diseño de dashboards interactivos, se busca **incrementar en un 10% el KPI de exportabilidad** y mejorar la rentabilidad del negocio, segmentando el comportamiento por regiones y variedades.
 
-### 💼 Caso de Negocio (Business Case)
+### 💼 Caso de Negocio
 
 *   **El Problema:** Al cierre de la campaña anual 25-26 (01 de mayo de 2026), el valor del *Indicador Anual de Arándanos Exportables por Campaña* de la empresa **BerryData** se situó en un **75%**, ubicándose en un nivel de eficiencia bajo (semáforo rojo). Esto representa una pérdida notable de fruta que podría colocarse en mercados internacionales de mayor valor.
 *   **La Meta:** Incrementar este indicador al **85%** al cierre de la campaña 26-27 (01 de mayo de 2027), alcanzando el nivel óptimo de eficiencia (semáforo verde) y maximizando el volumen de exportación.
@@ -122,6 +122,18 @@ Diagnóstico del estado actual del negocio (cierre con un 75% de exportabilidad)
 
 <p align="center">
   <img src="img/pestaña_dashboard_2026.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
+</p>
+
+---
+
+### 3. Reporte Detallado (Operaciones y Tendencias)
+Esta sección profundiza en el análisis operativo de las campañas, permitiendo identificar variaciones estacionales y justificar los planes de inversión basados en el comportamiento histórico.
+
+#### 📈 Evolución y Proyección del Indicador
+Muestra el diagnóstico técnico del negocio donde se evidencia la caída al **75%** en la última campaña y el camino trazado hacia la meta óptima del **85%** mediante la optimización de procesos en postcosecha.
+
+<p align="center">
+  <img src="img/pestaña_reporte.png" alt="Evolución de Exportabilidad BerryData" width="100%"/>
 </p>
 
 ---
