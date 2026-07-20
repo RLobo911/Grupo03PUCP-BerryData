@@ -263,4 +263,4 @@ Esta propuesta no solo facilita el monitoreo continuo del desempeño por campañ
 
 ## 🚀 ¿Cómo visualizar el proyecto?
 > [!TIP]
-> Puedes interactuar directamente con la presentación y los resultados de este proyecto visitando nuestra **[Página de GitHub Pages](AQUÍ_VA_EL_LINK_DE_TU_PÁGINA)**.
+> Puedes interactuar directamente con la presentación y los resultados de este proyecto visitando nuestra **https://rlobo911.github.io/Grupo03PUCP-BerryData/**.
