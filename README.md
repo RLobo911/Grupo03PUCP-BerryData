@@ -44,8 +44,12 @@ El informe está estructurado en pestañas estratégicas para guiar al usuario a
 
 ---
 
-## 🗄️ Modelo de Datos (Data Model)
+## 🗄️ Modelo de Datos
 El proyecto cuenta con un modelo relacional diseñado para analizar el rendimiento de la fruta desde las etapas de cultivo hasta su clasificación final en las líneas de empaque. 
+
+<p align="center">
+  <img src="img/modelo_datos.png" alt="Modelo de Datos BerryData" width="100%"/>
+</p>
 
 ### 📐 Arquitectura del Modelo
 El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio organizadas para optimizar las consultas analíticas:
@@ -54,9 +58,6 @@ El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio
 *   **Gestión de Producción y Variedades:** Vincula el lote con las tablas `G3 CAMPANA` y `G3 VARIEDAD` para evaluar el rendimiento genético e histórico por temporada.
 *   **Dimensión Temporal y Geográfica:** Mapeo continuo a través de `G3 CALENDARIO` y segmentación espacial mediante `G3 REGION` para identificar oportunidades geográficas.
 *   **Control de Planta y Personal:** Relación detallada entre `G3 LINEA_EMPAQUE`, `G3 PLANTA` y la asignación operativa de supervisores y operarios a través de `G3 TRABAJADOR_LINEA` y `G3 TRABAJADOR`.
-
-> [!NOTE]
-> *Todas las relaciones mantienen una dirección de filtrado óptima, asegurando la integridad analítica al cruzar variables climáticas, operativas y de calidad.*
 
 ---
 
