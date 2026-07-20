@@ -230,6 +230,24 @@ En esta sección se presentan los diagnósticos analíticos y visuales que dan r
 
 ---
 
+## 📌 Conclusión
+El desarrollo de **BerryData** demuestra cómo una solución de Business Intelligence puede transformar datos operativos en información estratégica para la toma de decisiones. Mediante el uso de Power BI, un modelo de datos relacional y dashboards interactivos, fue posible identificar los principales factores que afectan el porcentaje de arándanos exportables y establecer acciones orientadas a incrementar este indicador del **75% al 85%**. 
+
+Esta propuesta no solo facilita el monitoreo continuo del desempeño por campaña, región y variedad, sino que también permite anticipar oportunidades de mejora que impactan directamente en la rentabilidad y competitividad de la empresa agroexportadora.
+
+---
+
+## 💡 Valor Estratégico
+**BerryData** aporta valor estratégico al convertir la información productiva y de calidad en un sistema de apoyo para la toma de decisiones basada en datos. La plataforma permite:
+
+*   **Monitoreo continuo:** Seguimiento en tiempo real de los principales indicadores del proceso productivo.
+*   **Detección temprana:** Identificación oportuna de desviaciones que afectan la calidad y exportabilidad de la fruta.
+*   **Priorización con evidencia:** Focalización de acciones de mejora en postcosecha, manejo y clasificación de acuerdo con datos objetivos.
+*   **Eficiencia y Rentabilidad:** Maximización del volumen de fruta exportable, generando un impacto económico positivo y un mejor aprovechamiento de la producción.
+*   **Cultura Data-Driven:** Promoción de una cultura organizacional orientada al análisis de datos y la mejora continua, fortaleciendo la competitividad de la empresa en el mercado agroexportador.
+*   
+---
+
 ## 🛠️ Herramientas Utilizadas
 *   **Microsoft Power BI:** Modelado de datos (DAX), ETL (Power Query) y diseño de la interfaz interactiva.
 *   **Microsoft Excel:** Procesamiento inicial y almacenamiento de las bases de datos origen.
