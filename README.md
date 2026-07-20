@@ -133,7 +133,6 @@ Esta sección analiza la evolución histórica del indicador de exportabilidad, 
   <img src="img/pestaña_reporte.png" alt="Evolución del % de Arándano Exportable" width="100%"/>
 </p>
 
-> [!IMPORTANT]
 > ### 🔍 Diagnóstico Estratégico (Metodología WHAT / SO WHAT / NOW WHAT)
 >
 > **WHAT (¿Qué ocurrió?)**  
@@ -154,13 +153,6 @@ Esta sección analiza la evolución histórica del indicador de exportabilidad, 
 > *   Seguimiento operativo mediante indicadores de calidad.
 > 
 > *Con ello, se proyecta aumentar la facturación anual a **S/ 1,095,000** y generar una **ganancia adicional de S/ 50,000** tras una inversión única de **S/ 20,000**.*
-
----
-
-#### 🗺️ Vistas Complementarias de Detalle
-Para profundizar en las causas operativas del descarte, el reporte incluye dos análisis segmentados:
-*   **Detalle Región (`pestaña_detalle_region.png`):** Mapeo geoespacial del porcentaje de descarte para identificar zonas productivas críticas.
-*   **Detalle Variedad (`pestaña_detalle_variedad.png`):** Evaluación del rendimiento y resistencia postcosecha según la genética del arándano.
 
 ---
 
