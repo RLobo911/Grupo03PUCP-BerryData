@@ -55,9 +55,36 @@ El proyecto cuenta con un modelo relacional diseñado para analizar el rendimien
 El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio organizadas para optimizar las consultas analíticas:
 
 *   **Núcleo de Operaciones y Calidad:** La tabla `G3 LOTE` funciona como nexo principal, conectando el origen agrícola (`G3 PRODUCCION`) con los resultados de inspección (`G3 METRICA_KILOGRAMO`).
-*   **Gestión de Producción y Variedades:** Vincula el lote con las tablas `G3 CAMPANA` y `G3 VARIEDAD` para evaluar el rendimiento genético e histórico por temporada.
+*   **Gestión de Producción y Variedades:** Vincula el lote con las tablas `G3 CAMPAÑA` y `G3 VARIEDAD` para evaluar el rendimiento genético e histórico por temporada.
 *   **Dimensión Temporal y Geográfica:** Mapeo continuo a través de `G3 CALENDARIO` y segmentación espacial mediante `G3 REGION` para identificar oportunidades geográficas.
 *   **Control de Planta y Personal:** Relación detallada entre `G3 LINEA_EMPAQUE`, `G3 PLANTA` y la asignación operativa de supervisores y operarios a través de `G3 TRABAJADOR_LINEA` y `G3 TRABAJADOR`.
+
+---
+
+## 📊 Estructura Analítica del Reporte
+
+### 1. Pestaña: Indicadores (Ficha Técnica del KPI)
+Esta sección define las reglas operativas y comerciales bajo las cuales **Berry-Data** evalúa el éxito de sus campañas. El estado de la fruta depende de tres parámetros físicos controlados por el área de calidad:
+
+*   **Firmeza:** Debe ser mayor a $200\text{ g/mm}$.
+*   **Calibre:** Debe ser mayor a $18\text{ mm}$.
+*   **Grados Brix (Dulzura):** Debe ser superior a $10^\circ$.
+
+> El incumplimiento de cualquiera de estas métricas clasifica automáticamente a la fruta como **No Exportable**, siendo desviada al mercado nacional.
+
+*   **Fórmula del KPI:**
+$$\text{\% Arándanos Exportables} = \left( \frac{\text{Kg. Totales Exportables (Campaña Anual)}}{\text{Kg. Totales Producidos (Campaña Anual)}} \right) \times 100$$
+
+*   **Rangos de Gestión (Semáforo operativo):**
+    *   🟢 **Umbral Óptimo:** $\ge 85\%$
+    *   🟡 **Zona de Alerta:** $> 75\%$ a $< 85\%$
+    *   🔴 **Estado Crítico:** $\le 75\%$
+
+*   **Impacto Económico:** Un kilogramo de arándano exportable alcanza un valor de mercado de **S/ 12**, frente a los **S/ 5** del mercado nacional. Tomando como base una producción anual promedio de **100,000 kg**, cada incremento de **1%** en la exportabilidad representa **S/ 7,000** adicionales en la facturación anual, haciendo que este indicador sea crítico para la sostenibilidad del negocio.
+
+<p align="center">
+  <img src="img/pestaña_indicadores.png" alt="Ficha Técnica de Indicadores Berry-Data" width="100%"/>
+</p>
 
 ---
 
