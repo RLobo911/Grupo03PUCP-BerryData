@@ -63,7 +63,7 @@ El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio
 
 ## 📊 Estructura Analítica del Reporte
 
-### 1. Pestaña: Indicadores (Ficha Técnica del KPI)
+### 1. Indicadores (Ficha Técnica del KPI)
 Esta sección define las reglas operativas y comerciales bajo las cuales **Berry-Data** evalúa el éxito de sus campañas. El estado de la fruta depende de tres parámetros físicos controlados por el área de calidad:
 
 *   **Firmeza:** Debe ser mayor a $200\text{ g/mm}$.
@@ -84,6 +84,20 @@ $$\text{\% Arándanos Exportables} = \left( \frac{\text{Kg. Totales Exportables 
 
 <p align="center">
   <img src="img/pestaña_indicadores.png" alt="Ficha Técnica de Indicadores Berry-Data" width="100%"/>
+</p>
+
+---
+
+### 2. Dashboard Principal (Vistas por Campaña)
+El panel principal interactivo permite realizar un seguimiento macro de la operación. Para reflejar la evolución histórica y el comportamiento del negocio, la sección analítica se divide en 4 vistas dinámicas según la campaña seleccionada:
+
+*   **Campaña 2022-2023 (`pestana_campana2022_2023.png`):** Línea de base histórica con los volúmenes iniciales procesados por la empresa.
+*   **Campaña 2023-2024 (`pestana_campana2023_2024.png`):** Comportamiento intermedio de la producción y seguimiento de indicadores de calidad.
+*   **Campaña 2024-2025 (`pestana_campana2024_2025.png`):** Tendencia previa y consolidación de datos de exportabilidad por zona.
+*   **Campaña 2025-2026 (`pestana_campana2025_2026.png`):** Diagnóstico del estado actual del negocio (cierre al 01/05/2026 con un 75% de exportabilidad).
+
+<p align="center">
+  <img src="img/pestana_campaña2026.png" alt="Dashboard Principal BerryData - Campaña Actual" width="100%"/>
 </p>
 
 ---
