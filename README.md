@@ -1,4 +1,4 @@
-# Data Visualization with Power BI + Cloud — BERRYDATA Proyecto Final
+# Data Visualization with Power BI + Cloud — Proyecto Final
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" width="50"/>
@@ -41,6 +41,22 @@ El informe está estructurado en pestañas estratégicas para guiar al usuario a
     *   *Detalle Región:* Análisis geoespacial y rendimiento por zona productiva.
     *   *Detalle Variedad:* Comportamiento y calidad según el tipo de arándano.
 *   **Sección de Asesoría (Preguntas 1 a 10):** Respuestas analíticas a los 10 requerimientos críticos planteados en la asesoría del negocio.
+
+---
+
+## 🗄️ Modelo de Datos (Data Model)
+El proyecto cuenta con un modelo relacional diseñado para analizar el rendimiento de la fruta desde las etapas de cultivo hasta su clasificación final en las líneas de empaque. 
+
+### 📐 Arquitectura del Modelo
+El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio organizadas para optimizar las consultas analíticas:
+
+*   **Núcleo de Operaciones y Calidad:** La tabla `G3 LOTE` funciona como nexo principal, conectando el origen agrícola (`G3 PRODUCCION`) con los resultados de inspección (`G3 METRICA_KILOGRAMO`).
+*   **Gestión de Producción y Variedades:** Vincula el lote con las tablas `G3 CAMPANA` y `G3 VARIEDAD` para evaluar el rendimiento genético e histórico por temporada.
+*   **Dimensión Temporal y Geográfica:** Mapeo continuo a través de `G3 CALENDARIO` y segmentación espacial mediante `G3 REGION` para identificar oportunidades geográficas.
+*   **Control de Planta y Personal:** Relación detallada entre `G3 LINEA_EMPAQUE`, `G3 PLANTA` y la asignación operativa de supervisores y operarios a través de `G3 TRABAJADOR_LINEA` y `G3 TRABAJADOR`.
+
+> [!NOTE]
+> *Todas las relaciones mantienen una dirección de filtrado óptima, asegurando la integridad analítica al cruzar variables climáticas, operativas y de calidad.*
 
 ---
 
