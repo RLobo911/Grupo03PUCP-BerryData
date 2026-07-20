@@ -126,15 +126,41 @@ Diagnóstico del estado actual del negocio (cierre con un 75% de exportabilidad)
 
 ---
 
-### 3. Reporte Detallado (Operaciones y Tendencias)
-Esta sección profundiza en el análisis operativo de las campañas, permitiendo identificar variaciones estacionales y justificar los planes de inversión basados en el comportamiento histórico.
-
-#### 📈 Evolución y Proyección del Indicador
-Muestra el diagnóstico técnico del negocio donde se evidencia la caída al **75%** en la última campaña y el camino trazado hacia la meta óptima del **85%** mediante la optimización de procesos en postcosecha.
+### 3. Reporte Detallado (Operaciones y Proyección)
+Esta sección analiza la evolución histórica del indicador de exportabilidad, diagnosticando la causa raíz del rendimiento actual y trazando la ruta financiera para alcanzar la meta proyectada.
 
 <p align="center">
-  <img src="img/pestaña_reporte.png" alt="Evolución de Exportabilidad BerryData" width="100%"/>
+  <img src="img/pestaña_reporte.png" alt="Evolución del % de Arándano Exportable" width="100%"/>
 </p>
+
+> [!IMPORTANT]
+> ### 🔍 Diagnóstico Estratégico (Metodología WHAT / SO WHAT / NOW WHAT)
+>
+> **WHAT (¿Qué ocurrió?)**  
+> Al inicio de la campaña 2026, **Berry-Data** registró un **75%** de arándano exportable, equivalente a **75,000 kg** de los **100,000 kg** producidos. El **25%** restante fue destinado a mercados de menor valor, reduciendo la rentabilidad y generando una facturación aproximada de **S/ 1,025,000**. Por lo tanto, el *Indicador Anual de Arándanos Exportables* por campaña se sitúa un **10% por debajo de lo esperado**.
+> 
+> ---
+> 
+> **SO WHAT (¿Qué impacto genera?)**  
+> El bajo nivel de exportabilidad genera pérdidas económicas directas, ya que la fruta no exportable reduce su valor de **S/ 12 a S/ 5 por kg**. La empresa deja de percibir cerca de **S/ 70,000 anuales** debido a deficiencias en la selección, manejo y conservación postcosecha, afectando su competitividad y eficiencia operativa.
+> 
+> ---
+> 
+> **NOW WHAT (¿Qué acciones tomaremos?)**  
+> **Berry-Data** busca elevar la exportabilidad al **85%** mediante:
+> *   Capacitación al personal en selección y clasificación de fruta.
+> *   Estandarización de criterios de calidad exportable.
+> *   Optimización del manejo y conservación de fruta.
+> *   Seguimiento operativo mediante indicadores de calidad.
+> 
+> *Con ello, se proyecta aumentar la facturación anual a **S/ 1,095,000** y generar una **ganancia adicional de S/ 50,000** tras una inversión única de **S/ 20,000**.*
+
+---
+
+#### 🗺️ Vistas Complementarias de Detalle
+Para profundizar en las causas operativas del descarte, el reporte incluye dos análisis segmentados:
+*   **Detalle Región (`pestaña_detalle_region.png`):** Mapeo geoespacial del porcentaje de descarte para identificar zonas productivas críticas.
+*   **Detalle Variedad (`pestaña_detalle_variedad.png`):** Evaluación del rendimiento y resistencia postcosecha según la genética del arándano.
 
 ---
 
