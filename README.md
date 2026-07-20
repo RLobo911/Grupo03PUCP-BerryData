@@ -156,6 +156,80 @@ Esta sección analiza la evolución histórica del indicador de exportabilidad, 
 
 ---
 
+## 💡 Sección de Asesoría: Resolución de Preguntas Clave
+
+En esta sección se presentan los diagnósticos analíticos y visuales que dan respuesta a los 10 requerimientos estratégicos planteados por la gerencia de **BerryData**. Cada captura integra la visualización interactiva desarrollada en Power BI junto con su respectivo hallazgo de negocio:
+
+### ❓ Pregunta 1
+<p align="center">
+  <img src="img/pestaña_pregunta1.png" alt="Resolución Pregunta 1 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 2
+<p align="center">
+  <img src="img/pestaña_pregunta2.png" alt="Resolución Pregunta 2 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 3
+<p align="center">
+  <img src="img/pestaña_pregunta3.png" alt="Resolución Pregunta 3 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 4
+<p align="center">
+  <img src="img/pestaña_pregunta4.png" alt="Resolución Pregunta 4 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 5
+<p align="center">
+  <img src="img/pestaña_pregunta5.png" alt="Resolución Pregunta 5 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 6
+<p align="center">
+  <img src="img/pestaña_pregunta6.png" alt="Resolución Pregunta 6 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 7
+<p align="center">
+  <img src="img/pestaña_pregunta7.png" alt="Resolución Pregunta 7 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 8
+<p align="center">
+  <img src="img/pestaña_pregunta8.png" alt="Resolución Pregunta 8 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 9
+<p align="center">
+  <img src="img/pestaña_pregunta9.png" alt="Resolución Pregunta 9 - BerryData" width="100%"/>
+</p>
+
+---
+
+### ❓ Pregunta 10
+<p align="center">
+  <img src="img/pestaña_pregunta10.png" alt="Resolución Pregunta 10 - BerryData" width="100%"/>
+</p>
+
+---
+
 ## 🛠️ Herramientas Utilizadas
 *   **Microsoft Power BI:** Modelado de datos (DAX), ETL (Power Query) y diseño de la interfaz interactiva.
 *   **Microsoft Excel:** Procesamiento inicial y almacenamiento de las bases de datos origen.
