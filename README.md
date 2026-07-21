@@ -38,7 +38,7 @@ El informe está estructurado en pestañas estratégicas para guiar al usuario a
 *   **Dashboard:** Panel principal interactivo con la situación macro de la operación.
 *   **Reporte Detallado:** Evolución histórica del KPI de exportabilidad y diagnóstico con metodología WHAT / SO WHAT / NOW WHAT.
 *   **Sección de Asesoría (Preguntas 1 a 10):** Respuestas analíticas a los 10 requerimientos críticos planteados en la asesoría del negocio.
-
+*   **Script de Datos (Query SQL):** Consulta de carga y poblamiento de la base de datos origen.
 ---
 
 ## 🗄️ Modelo de Datos
@@ -55,6 +55,13 @@ El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio
 *   **Gestión de Producción y Variedades:** Vincula el lote con las tablas `G3 CAMPAÑA` y `G3 VARIEDAD` para evaluar el rendimiento genético e histórico por temporada.
 *   **Dimensión Temporal y Geográfica:** Mapeo continuo a través de `G3 CALENDARIO` y segmentación espacial mediante `G3 REGION` para identificar oportunidades geográficas.
 *   **Control de Planta y Personal:** Relación detallada entre `G3 LINEA_EMPAQUE`, `G3 PLANTA` y la asignación operativa de supervisores y operarios a través de `G3 TRABAJADOR_LINEA` y `G3 TRABAJADOR`.
+
+---
+
+### 📜 Carga y Preparación de Datos (SQL Query)
+Para el proceso de extracción, transformación e inserción de la información origen en el modelo relacional, se diseñó una consulta SQL optimizada.
+
+*   **Ubicación de la Query:** [`sql/SQLQuery-grupo 3.sql`](./sql/SQLQuery-grupo 3.sql)
 
 ---
 
@@ -247,6 +254,7 @@ Esta propuesta no solo facilita el monitoreo continuo del desempeño por campañ
 ---
 
 ## 🛠️ Herramientas Utilizadas
+*   **SQL:** Query de carga, transformación e inserción de datos hacia el modelo relacional.
 *   **Microsoft Power BI:** Modelado de datos (DAX), ETL (Power Query) y diseño de la interfaz interactiva.
 *   **Microsoft Excel:** Procesamiento inicial y almacenamiento de las bases de datos origen.
 *   **GitHub Pages:** Despliegue estático y presentación del portafolio del proyecto.
