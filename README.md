@@ -59,7 +59,7 @@ El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio
 
 ---
 
-### 📜 Estructura de Base de Datos SQL (DDL Script)
+### 📜 Estructura de Base de Datos SQL
 Para dar soporte técnico y escalabilidad al modelo relacional, se diseñó un script en SQL Server que define la arquitectura completa del almacén de datos del proyecto.
 
 *   **Ubicación del Script:** [`sql/SQLQuery-grupo%203.sql`](./sql/SQLQuery-grupo%203.sql)
