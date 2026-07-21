@@ -39,6 +39,7 @@ El informe está estructurado en pestañas estratégicas para guiar al usuario a
 *   **Reporte Detallado:** Evolución histórica del KPI de exportabilidad y diagnóstico con metodología WHAT / SO WHAT / NOW WHAT.
 *   **Sección de Asesoría (Preguntas 1 a 10):** Respuestas analíticas a los 10 requerimientos críticos planteados en la asesoría del negocio.
 *   **Script de Datos (Query SQL):** Consulta de carga y poblamiento de la base de datos origen.
+
 ---
 
 ## 🗄️ Modelo de Datos
@@ -61,7 +62,8 @@ El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio
 ### 📜 Carga y Preparación de Datos (SQL Query)
 Para el proceso de extracción, transformación e inserción de la información origen en el modelo relacional, se diseñó una consulta SQL optimizada.
 
-*   **Ubicación de la Query:** [`sql/SQLQuery-grupo 3.sql`](./sql/SQLQuery-grupo 3.sql)
+*   **Ubicación de la Query:** [`sql/SQLQuery-grupo%203.sql`](./sql/SQLQuery-grupo%203.sql)
+*   **Alcance:** Incluye las sentencias DDL/DML para el poblamiento del modelo relacional, mapeo de tablas dimensionales y estructuración de hechos operativos.
 
 ---
 
@@ -70,14 +72,14 @@ Para el proceso de extracción, transformación e inserción de la información 
 ### 1. Indicadores (Ficha Técnica del KPI)
 Esta sección define las reglas operativas y comerciales bajo las cuales **Berry-Data** evalúa el éxito de sus campañas. El estado de la fruta depende de tres parámetros físicos controlados por el área de calidad:
 
-*   **Firmeza:** Debe ser mayor a $200\text{ g/mm}$.
-*   **Calibre:** Debe ser mayor a $18\text{ mm}$.
-*   **Grados Brix (Dulzura):** Debe ser superior a $10^\circ$.
+*   **Firmeza:** Debe ser mayor a **200 g/mm**.
+*   **Calibre:** Debe ser mayor a **18 mm**.
+*   **Grados Brix (Dulzura):** Debe ser superior a **10°**.
 
 > El incumplimiento de cualquiera de estas métricas clasifica automáticamente a la fruta como **No Exportable**, siendo desviada al mercado nacional.
 
-*   **Fórmula del KPI:**
-$$\text{\% Arándanos Exportables} = \left( \frac{\text{Kg. Totales Exportables (Campaña Anual)}}{\text{Kg. Totales Producidos (Campaña Anual)}} \right) \times 100$$
+*   **Fórmula del KPI:**  
+    `% Arándanos Exportables = (Kg. Totales Exportables / Kg. Totales Producidos) * 100`
 
 *   **Rangos de Gestión (Semáforo operativo):**
     *   🟢 **Umbral Óptimo:** $\ge 85\%$
@@ -271,4 +273,4 @@ Esta propuesta no solo facilita el monitoreo continuo del desempeño por campañ
 
 ## 🚀 ¿Cómo visualizar el proyecto?
 > [!TIP]
-> Puedes interactuar directamente con la presentación y los resultados de este proyecto visitando nuestra **https://rlobo911.github.io/Grupo03PUCP-BerryData/**.
+> Puedes interactuar directamente con la presentación y los resultados de este proyecto visitando nuestra **[Página de GitHub Pages (Grupo 03 - BerryData)](https://rlobo911.github.io/Grupo03PUCP-BerryData/)**.
