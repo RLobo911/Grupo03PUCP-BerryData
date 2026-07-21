@@ -59,11 +59,14 @@ El diseño combina tablas de hechos centrales asociadas a dimensiones de negocio
 
 ---
 
-### 📜 Carga y Preparación de Datos (SQL Query)
-Para el proceso de extracción, transformación e inserción de la información origen en el modelo relacional, se diseñó una consulta SQL optimizada.
+### 📜 Estructura de Base de Datos SQL (DDL Script)
+Para dar soporte técnico y escalabilidad al modelo relacional, se diseñó un script en SQL Server que define la arquitectura completa del almacén de datos del proyecto.
 
-*   **Ubicación de la Query:** [`sql/SQLQuery-grupo%203.sql`](./sql/SQLQuery-grupo%203.sql)
-*   **Alcance:** Incluye las sentencias DDL/DML para el poblamiento del modelo relacional, mapeo de tablas dimensionales y estructuración de hechos operativos.
+*   **Ubicación del Script:** [`sql/SQLQuery-grupo%203.sql`](./sql/SQLQuery-grupo%203.sql)
+*   **Alcance del Script:**
+    *   **Creación del Esquema:** Definición del namespace dedicado `[G3]`.
+    *   **Definición de Tablas (DDL):** Creación de 15 tablas relacionales clasificadas en tablas de hechos (`LOTE`, `PRODUCCION`, `METRICA_KILOGRAMO`) y dimensiones (`REGION`, `VARIEDAD`, `CAMPANA`, `PLANTA`, `TRABAJADOR`, `CLIMA`, `CALENDARIO`).
+    *   **Integridad Referencial:** Implementación estricta de Claves Primarias (`PK`), Claves Foráneas (`FK`) para la vinculación entre tablas y restricciones únicas (`UQ`).
 
 ---
 
